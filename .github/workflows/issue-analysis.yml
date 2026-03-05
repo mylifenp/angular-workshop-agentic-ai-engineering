@@ -1,9 +1,6 @@
 name: Issue Analysis with Claude
 
 on:
-  push:
-    branches:
-      - issue-creation
   issues:
     types: [opened, edited]
   issue_comment:
